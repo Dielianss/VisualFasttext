@@ -4,7 +4,7 @@ This repository contains a simple analysis tool for Fasttext, which replicates t
 
 ## Preparation work
 
-According to the source code of official Python wrapper of Fasttext, it does not provide the interface accessible to the C++ function about how to get the hash value for a given word. So I made a minor modification over the official Fasttext installation by creating a interface accessing to the mentioned C++ function. The followings are the details that what I did:  
+According to the source code of official Python wrapper of Fasttext, it does not provide the interface access to the C++ function about how to get the hash value for a given word. So I made a minor modification over the official Fasttext installation by creating a interface accessing to the mentioned C++ function. The followings are the details that what I did:  
 
 1. unzip the source code (.zip file) of the Fasttext (https://github.com/facebookresearch/fastText/releases).
 
