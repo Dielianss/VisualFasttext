@@ -1,8 +1,8 @@
 # A simple analysis tool for Fasttext
 
-This repository contains a simple analysis tool for Fasttext, which replicates the functions about how does fasttext represent a given text, calculate the sentence vector as well as get the final prediction in Python (for official Python wrapper of Fasttext, it finishes these jobs by calling the counterparts in C++ source code). You can get the details about the Besides, it also provides a function that can measure the contribution of each token to the prediction by calculating a contribution score. As a result, by using this function, one can get a rough understanding of the importance of all the words to the full text.    
+This repository contains a simple analysis tool for Fasttext, which replicates the functions about how does fasttext represent a given text, calculate the sentence vector as well as get the final prediction in Python (for official Python wrapper of Fasttext, it finishes these jobs by calling the counterparts in C++ source code). By referring to this tool, you will have detailed understanding about the end-to-end process of Fasttext's inference. Besides, it also provides a function that can measure the contribution of each token to the prediction by calculating a contribution score. As a result, by using this function, one can get rough understanding of the importance of all the words to the full text.    
 
-## Preparation work
+## Preparation
 
 According to the source code of official Python wrapper of Fasttext, it does not provide the interface access to the C++ function about how to get the hash value for a given word. So I made a minor modification over the official Fasttext installation by creating a interface accessing to the mentioned C++ function. The followings are the details that what I did:  
 
